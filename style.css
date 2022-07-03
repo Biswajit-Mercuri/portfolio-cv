@@ -1,5 +1,6 @@
 *{
 	font-family: 'Josefin Sans', sans-serif;
+	;
 }
 html,
 body {
@@ -54,6 +55,104 @@ ol {
 	padding: 0;
 	margin: 0;
 }
+
+/*---------------------
+	Start Home 3 Style
+-----------------------*/
+.home-three-style .main-left-area {
+	background: #f2f7f8;
+	padding-top: 200px;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+
+.home-three-style .main-left-area .section-title h2 {
+	margin-bottom: 80px;
+}
+
+.home-three-style .main-right-area{
+	padding-top: 200px;
+	padding-left: 110px;
+}
+
+.home-three-style .resume-list li{
+	padding-left: 0;
+}
+
+.home-three-style .resume-list li:after {
+	display: none;
+}
+
+.home-three-style .resume-list{
+	border-left: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.home-three-style .header-section{
+	padding: 50px 80px;
+	background: transparent;
+	position: absolute;
+	width: 100%;
+	z-index: 1;
+}
+
+.home-three-style .hero-image {
+	margin-bottom: 100px;
+}
+
+.home-three-style .hero-text h2{
+	font-size: 60px;
+	margin-bottom: 40px;
+}
+
+.home-three-style .skills{
+	max-width: 555px;
+}
+
+.home-three-style .fact-box.trans{
+	margin-bottom: 80px;
+}
+
+.home-three-style .social-links{
+	text-align: center;
+	padding-bottom: 70px;
+	padding-top: 120px;
+}
+
+.home-three-style .social-links a{
+	font-size: 30px;
+	margin-right: 40px;
+	color: #b9b9b9;
+}
+
+.home-three-style .social-links a:hover{
+	color: #484848;
+}
+
+/*---------------------
+	End Home 3 Style
+-----------------------*/
+
+/*---------------------
+	Start Header section
+-----------------------*/
+.header-section {
+	padding: 50px 40px;
+	background: #f2f7f8;
+}
+
+.site-logo h2 {
+	font-size: 70px;
+}
+
+.site-logo h2 {
+	color: #40424a;
+}
+
+/*---------------------
+	End Header section
+-----------------------*/
 
 /*---------------------
 	Helper CSS
@@ -128,21 +227,7 @@ ol {
 	transition: all 0.3s;
 }
 
-/*---------------------
-	Header section
------------------------*/
-.header-section {
-	padding: 50px 40px;
-	background: #f2f7f8;
-}
 
-.site-logo h2 {
-	font-size: 70px;
-}
-
-.site-logo h2 {
-	color: #40424a;
-}
 
 /*---------------------
 	Hero section
@@ -247,97 +332,131 @@ ol {
 	Footer section
 -----------------------*/
 .footer-section {
-	background: #40424a;
+	background: #101010;
 	padding: 20px 0;
 }
 
 .copyright {
 	padding-top: 5px;
-	font-size: 12px;
-	color: #838488;
+	font-size: 20px;
+	color: #fff;
 	line-height: normal;
 }
 
-/*---------------------
-	Home 3 Style
+
+
+/*----------------------
+	Start extra css add 
 -----------------------*/
-.home-three-style .main-left-area {
-	background: #f2f7f8;
-	padding-top: 200px;
-	padding-right: 80px;
-	padding-left: 80px;
+
+.section-title-list{
+	font-size: 20px;
 }
 
-.home-three-style .main-left-area .section-title h2 {
-	margin-bottom: 80px;
+/* skill progress css */
+.skill-progress {
+max-width: 280px;
+list-style: none;
 }
 
-.home-three-style .main-right-area{
-	padding-top: 200px;
-	padding-left: 110px;
+.skill-progress li {
+font-size: 18px;
+position: relative;
+margin-bottom: 10px;
 }
 
-.home-three-style .resume-list li{
-	padding-left: 0;
+.skill-progress .lan-prog {
+position: absolute;
+right: 0;
+top: 0;
 }
 
-.home-three-style .resume-list li:after {
-	display: none;
+.skill-progress .lan-prog span {
+width: 12px;
+height: 12px;
+display: inline-block;
+margin-right: 18px;
+border-radius: 12px;
+background: #40424a;
 }
 
-.home-three-style .resume-list{
-	border-left: none;
-	padding-left: 0;
-	margin-left: 0;
+.skill-progress .lan-prog span.fade-ele {
+background: #cacaca;
+}
+/* skill progress css */
+
+/* Hobby css*/
+.hobby {
+padding-top: 100px;
+padding-bottom: 100px;
+}
+.hobby-progress {
+max-width: 280px;
+list-style: none;
 }
 
-.home-three-style .header-section{
-	padding: 50px 80px;
-	background: transparent;
-	position: absolute;
-	width: 100%;
-	z-index: 1;
+.hobby-progress li {
+font-size: 18px;
+position: relative;
+margin-bottom: 10px;
 }
 
-.home-three-style .hero-image {
-	margin-bottom: 100px;
+.hobby-progress .lan-prog {
+position: absolute;
+right: 0;
+top: 0;
 }
 
-.home-three-style .hero-text h2{
-	font-size: 60px;
-	margin-bottom: 40px;
+.hobby-progress .lan-prog span {
+width: 12px;
+height: 12px;
+display: inline-block;
+margin-right: 18px;
+border-radius: 12px;
+background: #40424a;
 }
 
-.home-three-style .skills{
-	max-width: 555px;
+.hobby-progress .lan-prog span.fade-ele {
+background: #cacaca;
+}
+.section-title-hobby h2 {
+display: inline-block;
+position: relative;
+margin-bottom: 30px;
+padding-bottom: 2px;
+line-height: normal;
 }
 
-.home-three-style .fact-box.trans{
-	margin-bottom: 80px;
+.section-title-hobby h2:after {
+position: absolute;
+content: '';
+width: 100%;
+height: 2px;
+left: 0;
+bottom: 0;
+background: #40424a;
+}
+/* Hobby css*/
+
+.main-div{
+display: flex;
+flex-direction: row;
+}
+.left-div{
+margin-right: 150px;
 }
 
-.home-three-style .social-links{
-	text-align: center;
-	padding-bottom: 70px;
-	padding-top: 120px;
-}
+/*-------------------
+	End extra css add 
+---------------------*/
 
-.home-three-style .social-links a{
-	font-size: 30px;
-	margin-right: 40px;
-	color: #b9b9b9;
-}
-
-.home-three-style .social-links a:hover{
-	color: #484848;
-}
 
 /* ===========================
   Responsive
 ==============================*/
 /*  */
 
-@media only screen and (max-width: 1600px) {
+/* @media only screen and (max-width: 1600px) {
 	.hero-text h2 {
 		font-size: 120px;
 	}
@@ -352,10 +471,10 @@ ol {
 	.hero-info ul li span {
 		min-width: 180px;
 	}
-}
+} */
 
 /* Medium screen : 992px. */
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+/* @media only screen and (min-width: 992px) and (max-width: 1199px) {
 	.portfolio-warp {
 		padding: 0;
 	}
@@ -372,10 +491,10 @@ ol {
 	.home-three-style .main-right-area {
 		padding-left: 100px;
 	}
-}
+} */
 
 /* Tablet :768px. */
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.home-three-style .header-section {
 		position: relative;
 		background: #f2f7f8;
@@ -398,10 +517,10 @@ ol {
 	.hero-info ul li span {
 		display: block;
 	}
-}
+} */
 
 /* Large Mobile :480px. */
-@media only screen and (max-width: 767px) {
+/* @media only screen and (max-width: 767px) {
 	.icon-box {
 		margin-right: 30px;
 		text-align: left;
@@ -443,10 +562,10 @@ ol {
 	.info-section .hero-info ul li span {
 		color: #9c9b9b;
 	}
-}
+} */
 
 /* small Mobile :320px. */
-@media only screen and (max-width: 479px) {
+/* @media only screen and (max-width: 479px) {
 	.hero-text h2 {
 		font-size: 50px;
 	}
@@ -471,107 +590,9 @@ ol {
 		padding-right: 15px;
 		padding-left: 15px;
 	}
-}
+} */
 /* small Mobile :320px. */
 
-/* extra css add my me*/
-	.section-title-list{
-		font-size: 20px;
-	}
-/* extra css add my me*/
-
-/* skill progress css */
-.skill-progress {
-	max-width: 280px;
-	list-style: none;
-}
-
-.skill-progress li {
-	font-size: 18px;
-	position: relative;
-	margin-bottom: 10px;
-}
-
-.skill-progress .lan-prog {
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-.skill-progress .lan-prog span {
-	width: 12px;
-	height: 12px;
-	display: inline-block;
-	margin-right: 18px;
-	border-radius: 12px;
-	background: #40424a;
-}
-
-.skill-progress .lan-prog span.fade-ele {
-	background: #cacaca;
-}
-/* skill progress css */
-
-/* Hobby css*/
-.hobby {
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-.hobby-progress {
-	max-width: 280px;
-	list-style: none;
-}
-
-.hobby-progress li {
-	font-size: 18px;
-	position: relative;
-	margin-bottom: 10px;
-}
-
-.hobby-progress .lan-prog {
-	position: absolute;
-	right: 0;
-	top: 0;
-}
-
-.hobby-progress .lan-prog span {
-	width: 12px;
-	height: 12px;
-	display: inline-block;
-	margin-right: 18px;
-	border-radius: 12px;
-	background: #40424a;
-}
-
-.hobby-progress .lan-prog span.fade-ele {
-	background: #cacaca;
-}
-.section-title-hobby h2 {
-	display: inline-block;
-	position: relative;
-	margin-bottom: 30px;
-	padding-bottom: 2px;
-	line-height: normal;
-}
-
-.section-title-hobby h2:after {
-	position: absolute;
-	content: '';
-	width: 100%;
-	height: 2px;
-	left: 0;
-	bottom: 0;
-	background: #40424a;
-}
-/* Hobby css*/
-
-.main-div{
-	display: flex;
-	flex-direction: row;
-}
-.left-div{
-	margin-right: 150px;
-}
 
 
 
