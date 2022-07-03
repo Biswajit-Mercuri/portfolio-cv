@@ -1,8 +1,9 @@
-
+*{
+	font-family: 'Josefin Sans', sans-serif;
+}
 html,
 body {
 	height: 100%;
-	font-family: 'Josefin Sans', sans-serif;
 }
 
 h1,
@@ -14,7 +15,7 @@ h6 {
 	color: #40424a;
 	margin: 0;
 	font-weight: 600;
-	font-family: 'Josefin Sans', sans-serif;
+	
 }
 
 h2 {
@@ -139,7 +140,7 @@ ol {
 	font-size: 70px;
 }
 
-.site-logo h2 a {
+.site-logo h2 {
 	color: #40424a;
 }
 
