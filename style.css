@@ -60,7 +60,7 @@ ol {
 	Start Home 3 Style
 -----------------------*/
 .home-three-style .main-left-area {
-	background: #f2f7f8;
+	background: #2a9d8f;
 	padding-top: 200px;
 	padding-right: 80px;
 	padding-left: 80px;
@@ -246,6 +246,7 @@ ol {
 .hero-text p {
 	font-size: 23px;
 	line-height: 1.3;
+	color: #fff;
 }
 
 .hero-image {
