@@ -60,7 +60,7 @@ ol {
 	Start Home 3 Style
 -----------------------*/
 .home-three-style .main-left-area {
-	background: #4f5d75;
+	/* background: #4f5d75; */
 	padding-top: 200px;
 	padding-right: 80px;
 	padding-left: 80px;
@@ -72,9 +72,11 @@ ol {
 }
 
 .home-three-style .main-right-area{
-	padding-top: 200px;
-	padding-left: 110px;
+	padding-top: 25%;
+	/* padding-left: 60px; */
+	
 }
+
 
 .home-three-style .resume-list li{
 	padding-left: 0;
@@ -445,6 +447,7 @@ flex-direction: row;
 }
 .left-div{
 margin-right: 150px;
+background-color: #4f5d75;
 }
 
 /*-------------------
