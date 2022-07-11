@@ -37,19 +37,6 @@ img {
 	max-width: 60%;
 }
 
-input:focus,
-select:focus,
-button:focus,
-textarea:focus {
-	outline: none;
-}
-
-a:hover,
-a:focus {
-	text-decoration: none;
-	outline: none;
-}
-
 ul,
 ol {
 	padding: 0;
@@ -59,6 +46,11 @@ ol {
 /*---------------------
 	Start Home 3 Style
 -----------------------*/
+.home-three-style{
+	background-color: #2a6f97;
+}
+
+
 .home-three-style .main-left-area {
 	/* background: #4f5d75; */
 	padding-top: 200px;
@@ -74,9 +66,13 @@ ol {
 .home-three-style .main-right-area{
 	padding-top: 25%;
 	/* padding-left: 60px; */
-	
+	color: #fff;	
 }
 
+.main-right-area .section-title h2 {
+	margin-bottom: 50px;
+	color: #000;
+}
 
 .home-three-style .resume-list li{
 	padding-left: 0;
@@ -172,17 +168,7 @@ ol {
 	padding-bottom: 2px;
 	line-height: 1.2;
 	font-weight: 1000;
-}
-
-.section-title h2:after {
-	position: absolute;
-	content: '';
-	width: 100%;
-	height: 2px;
-	left: 0;
-	bottom: 0;
-	background: #000;
-	
+	font-size: 60px;
 }
 
 .set-bg {
@@ -302,41 +288,27 @@ ol {
 }
 
 .resume-list li {
-	margin-bottom: 120px;
+	margin-bottom: 10px;
 	position: relative;
 }
 
-.resume-list li:last-child {
-	margin-bottom: 0;
-}
-
-.resume-list li:after {
-	position: absolute;
-	content: '';
-	width: 15px;
-	height: 15px;
-	border: 2px solid #40424a;
-	border-radius: 50px;
-	background: #cacaca;
-	top: 30px;
-	left: -118px;
-}
-
 .resume-list h2 {
-	font-size: 72px;
+	font-size: 70px;
 	margin-bottom: 10px;
 }
 
-.resume-list h4 {
-	font-size: 16px;
-	text-transform: uppercase;
-	color: #808181;
-	margin-top: 10px;
-	margin-bottom: 45px;
+.resume-list h3{
+	font-size: 30px;
+	margin-bottom: 10px;
+	color: #000;
 }
 
-.resume-list p {
-	margin-bottom: 0;
+.resume-list h4 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 45px;
 }
 
 /*---------------------
@@ -399,42 +371,26 @@ background: #cacaca;
 
 /* Hobby css*/
 .hobby {
-padding-top: 100px;
+padding-top: 80px;
 padding-bottom: 100px;
 }
 .hobby-progress {
-max-width: 280px;
+max-width: 100%;
 list-style: none;
 }
 
 .hobby-progress li {
-font-size: 18px;
+font-size: 25px;
 position: relative;
 margin-bottom: 10px;
 }
 
-.hobby-progress .lan-prog {
-position: absolute;
-right: 0;
-top: 0;
-}
 
-.hobby-progress .lan-prog span {
-width: 12px;
-height: 12px;
-display: inline-block;
-margin-right: 18px;
-border-radius: 12px;
-background: #40424a;
-}
-
-.hobby-progress .lan-prog span.fade-ele {
-background: #cacaca;
-}
 .section-title-hobby h2 {
 display: inline-block;
 position: relative;
 margin-bottom: 30px;
+margin-top: 30px;
 padding-bottom: 2px;
 line-height: normal;
 }
